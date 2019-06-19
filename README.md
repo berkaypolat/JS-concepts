@@ -1,2 +1,2 @@
 # JS-concepts
-JS algorithm and data structures overview
+JS algorithms and data structures overview
