@@ -1,6 +1,8 @@
-//This is an example of a problem with frequency counter patterns
-//Write a function which accepts two arrays such that for every value in the first array
-//has it's corresponding value squared in the second array. Frequency values must be the same.
+/* This is an example of a problem with frequency counter patterns
+ * Write a function which accepts two arrays such that for every value in the first array
+ * has it's corresponding value squared in the second array. Frequency values must be the same.
+*/
+
 function same_naive(arr1,arr2){
     if(arr1.length !== arr2.length){
         return false;

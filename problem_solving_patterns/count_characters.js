@@ -1,3 +1,7 @@
+/*
+ * Write a function which takes a string and returns counts of each character in the string.
+ */
+
 function charCount(str){
     var obj = {};
     for (var char of str){

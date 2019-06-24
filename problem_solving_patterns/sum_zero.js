@@ -1,6 +1,7 @@
-//Write a function that takes a sorted array and find a pair that
-//sums up to zero.
-//This is an example of multiple pointers pattern strategy
+/* Write a function that takes a sorted array and find a pair that
+ * sums up to zero.
+ * This is an example of multiple pointers pattern strategy
+*/
 function sumZero(arr){
     var left = 0;
     var right = arr.length - 1;

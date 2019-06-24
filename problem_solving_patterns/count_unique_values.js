@@ -1,10 +1,10 @@
 /*
  * Implement a function called countUniqueValues, which accepts a sorted array, and counts the unique values in the
- * array. There can be negative numbers in the array, but it will always be sorted.
+ * array. There can be negative numbers in the array, but it will always be sorted. Both versions have
+ * time complexity => O(N), space complexity => O(1)
 */
 
 //this implementation modifies the array
-//O(N) time complexity, O(1) space complexity
 function countUniqueValues(arr){
   if (!arr || !arr.length) return 0;
 
@@ -21,7 +21,6 @@ function countUniqueValues(arr){
 }
 
 //this implementation does not modify the array
-//O(N) time complexity, O(1) space complexity
 function countUniqueValuesV2(arr){
   if (!arr || !arr.length) return 0;
 

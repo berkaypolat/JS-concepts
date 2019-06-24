@@ -1,7 +1,8 @@
-//Given two strings, write a function to determine if given
-//two strings are anagrams. (Uses frequency pattern technique)
+/* Given two strings, write a function to determine if given
+ * two strings are anagrams. (Uses frequency pattern technique)
+ * Both version has time complexity of O(N). What are the space complexities?
+*/
 
-//O(N) time complexity
 function validAnagram(str1,str2){
     if (str1.length !== str2.length){
         return false;
@@ -26,7 +27,6 @@ function validAnagram(str1,str2){
     return true;
 }
 
-//O(N) time complexity
 function validAnagramv2(str1,str2){
     if (str1.length !== str2.length){
         return false;
